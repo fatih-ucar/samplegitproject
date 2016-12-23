@@ -11,7 +11,7 @@ func main() {
 	// This handler will match /user/john but will not match neither /user/ or /user
 	router.GET("/user/:name", func(c *gin.Context) {
 		name := c.Param("name")
-		c.String(http.StatusOK, "Hello master %s", name)
+		c.String(http.StatusOK, "Hello master YYY %s", name)
 	})
 
 	// However, this one will match /user/john/ and also /user/john/send
