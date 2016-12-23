@@ -7,7 +7,7 @@ import (
 
 func main() {
 	/*router := gin.Default()
-
+        // erik
 	// This handler will match /user/john but will not match neither /user/ or /user
 	router.GET("/user/:name", func(c *gin.Context) {
 		name := c.Param("name")
